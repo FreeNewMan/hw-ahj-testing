@@ -1,0 +1,66 @@
+
+.cardnumb-input {
+  width: 100%;
+}
+
+.cards {
+  margin: 10px 0;
+  height: 30px;
+  padding: 0;
+}
+
+.cards li {
+  display:block;
+  float:left
+}
+.card {
+  float:left;
+  width: 42px; 
+  height: 30px; 
+  text-indent:-9999px;
+  background-position:0 0;
+  margin-right:4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+
+.card.active {
+  /* background-position:0 -25px;
+  opacity:.3 */
+  filter: grayscale(0%);
+}
+
+.card.mir {
+  background-image:url(d2aadb2916ecf85df2cacb4c67117889.png);
+}
+.card.visa {
+  background-image:url(cc9f35ceabab04a533af2b09296624e9.png);
+}
+.card.amex {
+  background-image:url(21820b601d768209d76e35a949768f44.png);
+}
+.card.jcb {
+  background-image:url(908a8009e7143bfe93021c8b151ddf3f.png);
+  margin-right:1px;
+}
+.card.master {
+  background-image:url(4b906b4a93eeaf8fae2f81adaf9123dd.png);
+}
+.card.discover {
+  background-image:url(4c9d3b57c2e816c6c8478c4ba4698566.png);
+}
+.card.diners_club {
+  background-image:url(66bde98ffd03ea2ac50f4a768c856421.png);
+}
+
+.valid {
+  border-color: green;
+}
+
+.invalid {
+  border-color: red;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
