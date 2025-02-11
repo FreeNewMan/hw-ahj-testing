@@ -1,6 +1,6 @@
 #image: Ubuntu2410  # образ для сборки
 
-stack: node 20  # окружение
+stack: node 18  # окружение
 
 branches:
   only:
@@ -24,4 +24,4 @@ deploy_script:  # скрипт развёртывания
   - git config --global user.name AppVeyor
   - git config --global user.email ci@appveyor.com
   - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
-  - npx gh-pages -d dist --legacy-peer-deps -u "appveyor-bot <ci@appveyor>" 
+  - npx gh-pages -d dist -u "appveyor-bot <ci@appveyor>" 
