@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/o5sn71srve4cxd0i?svg=true)](https://ci.appveyor.com/project/FreeNewMan/hw-ahj-testing)
+
 # Домашнее задание к занятию "4.Организация тестирования"
 
 Правила сдачи задания:
