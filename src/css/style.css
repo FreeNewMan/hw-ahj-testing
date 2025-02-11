@@ -1,0 +1,63 @@
+
+.cardnumb-input {
+  width: 100%;
+}
+
+.cards {
+  margin: 10px 0;
+  height: 30px;
+  padding: 0;
+}
+
+.cards li {
+  display:block;
+  float:left
+}
+.card {
+  float:left;
+  width: 42px; 
+  height: 30px; 
+  text-indent:-9999px;
+  background-position:0 0;
+  margin-right:4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+
+.card.active {
+  /* background-position:0 -25px;
+  opacity:.3 */
+  filter: grayscale(0%);
+}
+
+.card.mir {
+  background-image:url(../img/card-mir.png);
+}
+.card.visa {
+  background-image:url(../img/card-visa.png);
+}
+.card.amex {
+  background-image:url(../img/card-amex.png);
+}
+.card.jcb {
+  background-image:url(../img/card-jcb.png);
+  margin-right:1px;
+}
+.card.master {
+  background-image:url(../img/card-mastercard.png);
+}
+.card.discover {
+  background-image:url(../img/card-discover.png);
+}
+.card.diners_club {
+  background-image:url(../img/card-diners.png);
+}
+
+.valid {
+  border-color: green;
+}
+
+.invalid {
+  border-color: red;
+}
