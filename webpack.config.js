@@ -1,9 +1,7 @@
-
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-
 
 module.exports = {
   context: path.join(__dirname, ''),
@@ -45,11 +43,11 @@ module.exports = {
             loader: 'file-loader',
             options: {
               limit: 8192,
-            }
+            },
           },
         ],
 
-       type: 'javascript/auto'
+        type: 'javascript/auto',
       },
     ],
   },
@@ -64,8 +62,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-          { from: 'static' }
-      ]
-  })    
+        { from: 'static' },
+      ],
+    }),
   ],
 };
